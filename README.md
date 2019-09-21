@@ -19,9 +19,13 @@ output = get_model_layers(mobilenet, _from='conv1', _from_input=mobilenet.input,
 
 # create a new model with the desired layers
 cutted_mobilenet = Model(inputs=mobilenet.input, outputs=output)
+```
 
+
+## output
+
+```python
 cutted_mobilenet.summary()
-
 
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
