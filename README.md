@@ -1,5 +1,5 @@
 # Keras-Models-Cutter
-A simple function that allows to cut model's layers (es. in Keras pretrained models)
+A simple function that allows to cut model's layers (e.g. in Keras pretrained models)
 
 Sometimes we need to cut models from a specific layer to another, or merge models together, or this kind of stuff.
 
